@@ -1,0 +1,178 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+</style>
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-image:url(../img/fundo.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-attachment: fixed;
+	background-color: none;
+}
+section{
+	display: flex;
+	justify-content: center;
+}
+section.menu{
+	width: 20vw;
+	height: 13vh;
+	margin-top: 55vh;
+	margin-left: 65vw;
+	background-color: rgb(0, 0, 0, 0.5);
+	border: 5px solid limegreen;
+	border-radius: 1px;
+	flex-direction: column;
+	text-align: center;
+}
+section.menu div{
+	width: 35%;
+	padding: 1%;
+	background-color: black;
+	border: 1px solid white;
+	border-radius: 1px;
+	margin-left: 30%;
+	margin-top: 1.5%;
+}
+section.menu div a{
+	text-decoration: none;
+	font-size: 14pt;
+	color: limegreen;
+	font-family: "Orbitron", sans-serif;
+    display: block;
+}
+section.menu div:hover {
+	background-color: #42403A;
+}
+section.titulo{
+	width: 90vw;
+	margin-left: 5vw;
+	margin-top: 1vh;
+	height: 5vh;
+	background-color: rgb(0, 0, 0, 0.5);
+	border: 5px solid limegreen; 
+	flex-direction: column;
+	text-align: center;
+}
+section.titulo h1{
+	font-family: "Orbitron", sans-serif;
+	font-size: 14pt;
+	color: limegreen;
+}
+section.conteudo{
+	 width: 90vw;
+	 height: 90vh;
+	 margin-top: 3vh;
+	 margin-left: 5vw;
+	 background-color: rgb(0, 0, 0, 0.5);
+	 border-radius: 1px;
+	 border: 5px solid limegreen;
+}
+#texto{
+	width: 50%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+	color: limegreen;
+	justify-content: center;
+}
+#video{
+	width: 40%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+}
+#video video{
+	max-width: 100%;
+	max-height: 100%;
+	width: auto;
+	height: auto;
+}
+#texto p{
+	font-family: "Orbitron", sans-serif;
+	font-size: 1.0vw;
+	color: limegreen;
+	margin-top: 0.1vh;
+}
+#texto p b{
+	font-family: "Orbitron", sans-serif;
+	font-size: 3.0vw;
+	color: limegreen;
+	border: 1px solid limegreen;
+}
+section.link{
+	width: 10vw;
+	height: 1.7vw;
+	margin-top: 1vh;
+	margin-left: 85.3vw;
+	background-color: rgb(255, 255, 255 / 0.5);
+	border: 2px solid limegreen;
+}
+section.link div{
+	text-align: center;
+	padding: 1px;
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	flex-direction: column;
+	background-color: black;
+}
+section.link div a{
+	font-family: "Orbitron", sans-serif;
+	font-size: 1.5vw;
+	color: limegreen;
+	text-decoration: none;
+	display: block;
+}
+section.link div:hover {
+	background-color: #42403A;
+}
+#texto ul{
+	width: 40%;
+	margin-left: 30%;
+	text-align: justify;
+	list-style-type: disc;
+	/* square-quadrado, disc-bolinha, circle-circulo, numeric-números, lower-alpha letras minusculas, upper-alpha letras maisculas
+	lower-roman romanos minusculos, upper-roman romanos maisculos*/
+	/* list-style-image: url(../img/icone.png); (caso eu queira uma imagem como marcador)*/
+}
+#tabela{
+	color: limegreen;
+	width: 50%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	flex-direction: column;
+}
+#tabela table{
+	width: 25%;
+	border:2px solid limegreen;
+	box-shadow: 10px 7px 6px black;
+}
+#tabela table th{
+	background-color: rgb(25, 25, 25, 0.5);
+	border: 1px solid white;
+}
+#tabela table td{
+	background-color: black;
+	border: 1px solid white;
+}
+section.mapa{
+	margin-top: 4vh;
+	margin-bottom: 2vh;
+	width: 90vw;
+	height: 50vh;
+	margin-left: 5vw;
+	border: 5px solid limegreen;
+	
+}
+section.mapa iframe{
+	width: 60%;
+	height: 100%;
+}
